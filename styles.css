@@ -38,6 +38,50 @@ header{
     background-color: rgb(83, 80, 80);
 }
 
+footer{
+    width:100%;
+    height:10rem;
+    font-size:1.4rem;
+    display: inline-block;
+    line-height: 2rem;
+}
+.input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.8rem;
+    background-color: rgb(95, 92, 92);
+    border:0.001rem solid rgb(107, 104, 104);
+}
+
+.footer1{
+    text-align: left;
+    position: relative;
+    top: 1.2rem;
+    margin-right:2rem;
+    margin-left: 8rem;
+    font-size: 1.2rem;
+    line-height: 0.7rem;
+}
+footer a {
+    text-decoration: none;
+}
+footer div{
+    float: left;
+}
+.footer2{
+    position:relative;
+    bottom:1rem;
+    top:0.5rem;
+    font-size: 1.2rem;
+}
+.footer2 a{
+    padding: 0 0.5rem;
+}
+.footer2 img{
+    position:relative;
+    top:0.1rem;
+}
+
 .nav-list li{
     margin-top: 1rem;
     display:block;
@@ -52,4 +96,18 @@ header{
     color: white;
     left: 10rem;
     font: 1.5rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+main{
+    width: 142.5rem;
+    float: left;
+}
+
+.heading{
+    margin-top:10rem;
+    margin-left: 20rem;
+    width:75rem;
+    line-height: 5rem;
+    text-align:center;
+    font-size:3rem;
+    font-weight:2rem;
 }
