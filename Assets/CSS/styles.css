@@ -59,7 +59,7 @@ footer{
     margin-right:2rem;
     margin-left: 8rem;
     font-size: 1.2rem;
-    line-height: 0.7rem;
+    line-height: 2.2rem;
 }
 footer a {
     text-decoration: none;
@@ -93,17 +93,20 @@ footer div{
     border-right:0.02rem solid rgb(49, 48, 48);
     text-align: center;
     color: white;
-    left: 10rem;
+    left: 22rem;
     font: 1.5rem "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 main{
     width: 142.5rem;
     float: left;
 }
+#image{
+    width:24%;
+}
 
 .heading{
     margin-top:10rem;
-    margin-left: 20rem;
+    margin-left: 28rem;
     width:75rem;
     line-height: 5rem;
     text-align:center;
