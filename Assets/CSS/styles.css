@@ -55,7 +55,7 @@ footer{
 .footer1{
     text-align: left;
     position: relative;
-    top: 1.2rem;
+    top: 1.25rem;
     margin-right:2rem;
     margin-left: 8rem;
     font-size: 1.2rem;
@@ -70,8 +70,8 @@ footer div{
 .footer2{
     position:relative;
     bottom:1rem;
-    top:0.5rem;
-    font-size: 1.2rem;
+    top:1.2rem;
+    font-size: 1.1rem;
 }
 .footer2 a{
     padding: 0 0.5rem;
