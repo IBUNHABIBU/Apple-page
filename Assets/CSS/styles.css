@@ -48,9 +48,15 @@ footer{
     display: inline-block;
     line-height: 2rem;
 }
+input:hover {
+    width: 100%;
+}
 .input{
-    margin-right: 8rem;
-    width: 90%;
+    margin-right: 18rem;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+    width: 80%;
+    transition: width .2s;
     height: 2rem;
     border-radius: 0.8rem;
     background-color: rgb(95, 92, 92);
