@@ -1,4 +1,4 @@
-*{
+html,body,main,header,footer{
     margin: 0 auto;
     padding: 0;
 }
@@ -53,16 +53,13 @@ input:hover {
 }
 .input{
     margin-right: 18rem;
-    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
-    transition: width 2s;
+    transition: width 0.2s;
     width: 80%;
-    transition: width .2s;
     height: 2rem;
     border-radius: 0.8rem;
     background-color: rgb(95, 92, 92);
-    border:0.001rem solid rgb(107, 104, 104);
+    border:0.01rem solid rgb(107, 104, 104);
 }
-
 .footer1{
     text-align: left;
     position: relative;
@@ -122,7 +119,7 @@ main{
     line-height: 5rem;
     text-align:center;
     font-size:3rem;
-    font-weight:2rem;
+    font-weight:200;
 }
 .fa-search{
     position: absolute;
